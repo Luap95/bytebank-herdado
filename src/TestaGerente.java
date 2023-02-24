@@ -10,5 +10,6 @@ public class TestaGerente {
         System.out.println("O cpf do gerente é " + gerente.getCpf());
         System.out.println("O salário do gerente é de R$" + gerente.getSalario());
         System.out.println(gerente.autentica(1234));
+        System.out.println(gerente.getBonificacao());
     }
 }
