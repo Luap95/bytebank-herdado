@@ -1,6 +1,6 @@
 public class TestaFuncionario {
     public static void main(String[] args) {
-        Funcionario funcionario = new Funcionario();
+        Funcionario funcionario = new Gerente();
         funcionario.setNome("Lucas de Almeida Pereira");
         funcionario.setCpf("123.456.789-56");
         funcionario.setSalario(2840.25);
